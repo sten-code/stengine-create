@@ -6,7 +6,7 @@ use std::process;
 fn main() -> io::Result<()> {
     let mut input = String::new();
 
-    print!("What is your project named? ");
+    print!("What is your project name? ");
     io::stdout().flush().unwrap();
     io::stdin()
         .read_line(&mut input)
